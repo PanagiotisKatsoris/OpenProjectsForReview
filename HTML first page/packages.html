@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Package Deals</title>
+</head>
+<body style="background-color: #E8E8E8">
+    <h1>Only the Free Trial is currently available.</h1>
+    <table bgcolor="black" style="font-size: larger;"><!--table of available packages-->
+        <tr bgcolor="lightblue">
+            <th>Free Trial 0$</th>
+        </tr>
+        <tr bgcolor="lightgreen" align="center">
+            <td>30-Day Access</td>
+        </tr>
+        <tr bgcolor="lightgreen" align="center">
+            <td>Non-Commercial Use</td>
+        </tr>
+        <tr bgcolor="lightgreen" align="center">
+            <td>Basic Tools</td>
+        </tr>
+    </table>
+    <br>
+    <button onclick="downloadMessage()" style="background-color: #FF8B1E; color: black; font-style: oblique; font-size: larger; border-radius: 7px;">Get Free Trial version</button>
+    <br>
+    <script> //script for adding simple functionality to my button, epishs epd eimai se js edw pera kanw comment me to oldschool way kai oxi to <!---->
+        function downloadMessage(){
+            document.getElementById("message").innerHTML = "Your download should commence in a few seconds (NOT)";
+        }
+    </script>
+    <hr>
+    <form style="background-color: rgb(186, 196, 103);"><!--submission form-->
+        <div>
+            <label for="fname" style="font-size: large;">full name: </label>
+            <input type="text" id="fname" name="fullname" placeholder="Enter your full name here" required style="background-color: #E8E8E8;">
+        </div>
+        <div>
+            <label for="age" style="font-size: large;">age: </label>
+            <input type="text" id="age" name="age" placeholder="Enter your age here" style="background-color: #E8E8E8;">
+        </div>
+        <div>
+            <label for="email" style="font-size: large;">email: </label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address here" required style="background-color: #E8E8E8;">
+        </div>
+        <div>
+            <label for="gender" style="font-size: large;">Your gender: </label>
+
+            <label for="Male" style="font-size: larger;">Male</label>
+            <input type="radio" id="Male" name="gender" value="Male">
+
+            <label for="Female" style="font-size: larger;">Female</label>
+            <input type="radio" id="Female" name="gender" value="Female">
+        </div>
+        <div>
+            <label for="newsletter">Subscribe to our newsletter</label>
+            <input type="checkbox" id="newsletter" name="newsletter">
+        </div>
+        <br>
+        <div>
+            <input type="reset">
+            <input type="submit">
+        </div>
+
+    </form>
+    <hr>
+    <p id="message" style="font-size: x-large;"></p>
+</body>
+</html>
