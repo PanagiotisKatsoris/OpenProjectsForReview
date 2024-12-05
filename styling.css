@@ -1,0 +1,42 @@
+body{
+    background-image: url("img/greybg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+input{
+    background-color: #E8E8E8;
+}
+button{
+    background-color: #FF8B1E;
+    color: black;
+    font-style: oblique;
+    font-size: x-large;
+    border-radius: 7px;
+}
+form{
+    background-color: rgb(186, 196, 103);
+}
+.titlecard{
+    border-style:outset;
+    background: linear-gradient(to right, gold, bisque);
+    background-attachment: fixed;
+}
+#test1{
+    display: flex;
+    align-items: flex-start;
+    background-color: blueviolet;
+    border-style:ridge;
+    border-width: 13px;
+    border-color:aqua;
+    border-radius: 15px;
+    
+}
+#helloguy{
+    float:left;
+    margin:10px;
+    
+}
+#dump1{
+    color:aliceblue;
+}
