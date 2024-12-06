@@ -14,6 +14,10 @@ button{
     font-size: x-large;
     border-radius: 7px;
 }
+button:hover{
+    box-shadow: 5px 5px 8px grey;
+    background-color: #ffa012;
+}
 form{
     background-color: rgb(186, 196, 103);
 }
@@ -21,8 +25,18 @@ form{
     border-style:outset;
     background: linear-gradient(to right, gold, bisque);
     background-attachment: fixed;
+    border-bottom-style: inset;
+    border-bottom-width: 1px;    
+    margin-bottom: 0px;
 }
-#test1{
+.subtitlecard{
+    border-style:outset;
+    background: linear-gradient(to right, gold, bisque);
+    background-attachment: fixed;
+    border-top:none;
+    margin-top:0px;
+}
+#fpagebox{
     display: flex;
     align-items: flex-start;
     background-color: blueviolet;
@@ -37,7 +51,7 @@ form{
     margin:10px;
     
 }
-#dump1{
+#dumptext1{
     color:aliceblue;
 }
 #box1{
@@ -64,4 +78,32 @@ form{
 #logo{
     float:left;
     margin:5px;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: limegreen;
+}
+li:nth-child(1){
+    background-color: rgb(108, 173, 108);
+}
+.p_in_showcase{
+    font-size:larger;
+    text-shadow: 0px 0px 5px yellow, 0px -3px 5px rgb(207, 53, 6), 0px 2px 10px lime;
+}
+#box3{
+    border-style: double;
+    border-width: 3px;
+    background-color: aquamarine;
+    height: 110px;
+    width: 280px;
+    font-size: 80px;
+    text-align: center;
+}
+#box3:hover{
+    transform: matrix(4, 0, 0, 1, 420, 0);/*matrix= scalex - skewy - skewx - scaley - trnsltx - trnslty*/
 }
