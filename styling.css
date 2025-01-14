@@ -1,109 +1,110 @@
 body{
-    background-image: url("img/greybg.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:cover;
+  background-image: url("img/greybg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
 }
 input{
-    background-color: #E8E8E8;
+  background-color: #E8E8E8;
 }
 button{
-    background-color: #FF8B1E;
-    color: black;
-    font-style: oblique;
-    font-size: x-large;
-    border-radius: 7px;
+  background-color: #FF8B1E;
+  color: black;
+  font-style: oblique;
+  font-size: x-large;
+  border-radius: 7px;
 }
 button:hover{
-    box-shadow: 5px 5px 8px grey;
-    background-color: #ffa012;
+  box-shadow: 5px 5px 8px grey;
+  background-color: #ffa012;
 }
 form{
-    background-color: rgb(186, 196, 103);
+  background-color: rgb(186, 196, 103);
 }
 .titlecard{
-    border-style:outset;
-    background: linear-gradient(to right, gold, bisque);
-    background-attachment: fixed;
-    border-bottom-style: inset;
-    border-bottom-width: 1px;    
-    margin-bottom: 0px;
+  border-style:outset;
+  background: linear-gradient(to right, gold, bisque);
+  background-attachment: fixed;
+  border-bottom-style: inset;
+  border-bottom-width: 1px;    
+  margin-bottom: 0px;
 }
 .subtitlecard{
-    border-style:outset;
-    background: linear-gradient(to right, gold, bisque);
-    background-attachment: fixed;
-    border-top:none;
-    margin-top:0px;
+  border-style:outset;
+  background: linear-gradient(to right, gold, bisque);
+  background-attachment: fixed;
+  border-top:none;
+  margin-top:0px;
 }
 #fpagebox{
-    display: flex;
-    align-items: flex-start;
-    background-color: blueviolet;
-    border-style:ridge;
-    border-width: 13px;
-    border-color:aqua;
-    border-radius: 15px;
-    
+  display: flex;
+  align-items: flex-start;
+  background-color: blueviolet;
+  border-style:ridge;
+  border-width: 13px;
+  border-color:aqua;
+  border-radius: 15px;
+  
 }
 #helloguy{
-    float:left;
-    margin:10px;
-    
+  float:left;
+  margin:10px;
+  
 }
 #dumptext1{
-    color:aliceblue;
+  color:aliceblue;
 }
 #box1{
-    border: 1px solid;
-    height: 300px;
-    width: 300px;
-    background-color:brown;
+  border: 1px solid;
+  height: 300px;
+  width: 300px;
+  background-color:brown;
 
-    position:fixed;
-    right: 10px;
-    top: 62px;
-    
+  position:fixed;
+  right: 10px;
+  top: 62px;
+  
 }
 #box2{
-    border: 1px solid;
-    height: 100px;
-    width: 100px;
-    background-color: burlywood;
-    
-    position:absolute;
-    top:100px;
-    left: 100px;
+  border: 1px solid;
+  height: 100px;
+  width: 100px;
+  background-color: burlywood;
+  
+  position:absolute;
+  top:100px;
+  left: 100px;
 }
 #logo{
-    float:left;
-    margin:5px;
+  float:left;
+  margin:5px;
 }
 a:link{
-    text-decoration: none;
+  text-decoration: none;
 }
 a:visited{
-    color: black;
+  color: black;
 }
 a:hover{
-    color: limegreen;
+  color: limegreen;
 }
 li:nth-child(1){
-    background-color: rgb(108, 173, 108);
+  background-color: rgb(108, 173, 108);
 }
 .p_in_showcase{
-    font-size:larger;
-    text-shadow: 0px 0px 5px yellow, 0px -3px 5px rgb(207, 53, 6), 0px 2px 10px lime;
+  font-size:larger;
+  text-shadow: 0px 0px 5px yellow, 0px -3px 5px rgb(207, 53, 6), 0px 2px 10px lime;
 }
 #box3{
-    border-style: double;
-    border-width: 3px;
-    background-color: aquamarine;
-    height: 110px;
-    width: 280px;
-    font-size: 80px;
-    text-align: center;
+  border-style: double;
+  border-width: 3px;
+  background-color: aquamarine;
+  height: 110px;
+  width: 280px;
+  font-size: 80px;
+  text-align: center;
+  transition: 0.3s;
 }
 #box3:hover{
-    transform: matrix(4, 0, 0, 1, 420, 0);/*matrix= scalex - skewy - skewx - scaley - trnsltx - trnslty*/
+  transform: matrix(4, 0, 0, 1, 420, 0);/*matrix= scalex - skewy - skewx - scaley - trnsltx - trnslty*/
 }
